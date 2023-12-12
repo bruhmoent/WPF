@@ -1,0 +1,52 @@
+﻿<Window x:Class="Slider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Slider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="BurlyWood">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <StackPanel Height="50" Width="800" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Label FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center">KALKULATOR JEDNOSTEK DŁUGOŚCI</Label>
+        </StackPanel>
+
+        <StackPanel Height="50" Width="800" Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
+                    <Label FontSize="20">Wybierz wartość liczbową:</Label>
+                    <Slider x:Name="slider" IsSnapToTickEnabled="True" TickFrequency="1" Maximum="100" Minimum="0" Width="400" ValueChanged="SliderAction"></Slider>
+                    <TextBox BorderBrush="Brown" TextAlignment="Center"  x:Name="wartosc"  Width="80" Height="50" IsEnabled="False" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"></TextBox>
+                </StackPanel>
+        </StackPanel>
+
+            <StackPanel Height="60" Width="300" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Margin="10" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">Zamień</Label>
+                <ComboBox x:Name="first"  Height="30">
+                    <ComboBoxItem IsSelected="True">cm</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">dm</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">m</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">km</ComboBoxItem>
+                </ComboBox>
+                <Label Margin="10" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">na</Label>
+                <ComboBox x:Name="second"  Height="30">
+                    <ComboBoxItem IsSelected="True">cm</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">dm</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">m</ComboBoxItem>
+                    <ComboBoxItem IsSelected="False">km</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            
+            <StackPanel Height="100" HorizontalAlignment="Center" Orientation="Horizontal" Margin="30" Width="300">
+                <Button x:Name="przelicz" Content="Przelicz Wartość" FontSize="14" Height="40" Width="150" Click="zrob"></Button>
+                <Image x:Name="aj" Margin="10" Source="/units.png" Width="150" ></Image>
+            </StackPanel>
+
+            <Grid Height="80" Width="400">
+            <StackPanel  VerticalAlignment="Center">
+                <TextBox x:Name="field" Background="AntiqueWhite" BorderBrush="Brown" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" TextAlignment="Center" Width="150" Height="50" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
