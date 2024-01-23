@@ -1,0 +1,14 @@
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\anonim\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\bar12\Downloads\numer_zdajacego\numer_zdajacego\konsolowa\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
